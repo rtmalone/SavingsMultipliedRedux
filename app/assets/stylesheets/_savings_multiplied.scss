@@ -202,9 +202,8 @@ nav {
     }
 
     #tree {
-      margin-right: 2%;
       padding-top: 31%;
-      float: right;
+      padding-left: 80%;
     }
   }
   .right-column {
@@ -248,7 +247,7 @@ nav {
   background-image: asset-data-url('homepage/dotted_line_44_36.png');
   background-repeat: repeat-x;
   height: 20px;
-  margin: 6%;
+  margin-top: 6%;
 }
 
 #dotted-line-2{
@@ -256,17 +255,6 @@ nav {
   background-repeat: repeat-x;
   height: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 $small-range: (0em, 30em); /* 0, 640px */
