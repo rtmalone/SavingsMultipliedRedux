@@ -14,6 +14,7 @@ header, footer, nav, #top {
 
 #top {
   background: rgb(206, 243, 241);
+  padding-top: 6%;
 
   #devise_navigation {
     display: block;
@@ -40,7 +41,7 @@ header, footer, nav, #top {
     height: 130px;
     background: #FFF;
     border-radius: 40px 40px 0px 0px;
-    margin: 100px auto 0px auto;
+    margin: .5% auto 0% auto;
 
     .left-column {
       h1 {
@@ -197,7 +198,13 @@ nav {
       border: none;
       padding: 7px 20px;
       float: right;
-      margin: 3% 12%;
+      margin: 0% 12%;
+    }
+
+    #tree {
+      margin-right: 2%;
+      padding-top: 31%;
+      float: right;
     }
   }
   .right-column {
@@ -211,9 +218,12 @@ nav {
   }
 
   .bottom-row {
-    border-top: 6px dotted rgb(206, 243, 241);
     margin-top: 40px;
     text-align: center;
+
+    .dot-row{
+      margin: -9%;
+    }
 
     ul {
       list-style-type: none;
@@ -234,6 +244,18 @@ nav {
   clear: both;
 }
 
+#dotted-line-1{
+  background-image: asset-data-url('homepage/dotted_line_44_36.png');
+  background-repeat: repeat-x;
+  height: 20px;
+  margin: 6%;
+}
+
+#dotted-line-2{
+  background-image: asset-data-url('homepage/dotted_line_44_36.png');
+  background-repeat: repeat-x;
+  height: 20px;
+}
 
 
 

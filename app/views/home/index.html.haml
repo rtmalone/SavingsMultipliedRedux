@@ -3,8 +3,11 @@
     %h2 We're making one aspect of life easier for parents of multiples:
     = image_tag "owls/owl_light_blue_32.png"
     %h3 buying and selling gently used sets of clothes!
-
-    = link_to "Shop Now!", auctions_path, class: "button primary"
+    //= link_to auctions_path do
+    //= image_tag "homepage/left_2_shop_now.png"
+    #dotted-line-1
+      = link_to "Shop Now!", auctions_path, class: "button primary"
+    #tree= image_tag "homepage/tree.png"
 
   .right-column
     #child_images
@@ -14,6 +17,7 @@
 
   .clear
 .bottom-row
+  #dotted-line-2
   %ul
     %li= image_tag "homepage/facebook_callout.png"
     %li= image_tag "homepage/twitter_callout.png"
